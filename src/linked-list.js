@@ -90,7 +90,7 @@ export class LinkedList {
       });
       return;
     }
-    // with non-empty list, go to index whilst tracking previous and turn current to a tail, set previous's next as insertions, and append the tail to the last one
+
     let count = 0,
       current = this.#head,
       previous;
